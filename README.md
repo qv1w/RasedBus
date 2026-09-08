@@ -56,12 +56,6 @@ php artisan migrate --seed
 php artisan serve
 ```
 
-## 👨‍💻 Developer
-
-**Jarallah Al-Jarallah**  
-Computer Science Graduate — Majmaah University  
-📧 jarallahx@gmail.com  
-🔗 [LinkedIn](https://www.linkedin.com/in/jarallah-al-jarallah)
 
 ## 📝 License
 
