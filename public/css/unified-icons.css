@@ -1,0 +1,391 @@
+/* ==========================================
+   🎨 نظام الأيقونات الموحد - نسخة شفافة
+   ملف CSS خارجي لتنسيق جميع الأيقونات
+   ========================================== */
+
+/* ==========================================
+   📦 الأيقونات الأساسية - شفافة
+   ========================================== */
+
+/* دائرة الأيقونة العامة */
+.icon-circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    flex-shrink: 0;
+    background: rgba(255, 255, 255, 0.08) !important;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+/* أيقونة المركز/الدار - شفافة */
+.center-icon {
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    flex-shrink: 0;
+    background: rgba(255, 255, 255, 0.08) !important;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+/* أيقونة الطالب/الطالبة - شفافة */
+.student-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    flex-shrink: 0;
+    background: rgba(255, 255, 255, 0.08) !important;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+/* ==========================================
+   🎨 الألوان حسب النوع - شفافة
+   ========================================== */
+
+/* دور التحفيظ - بنفسجي شفاف */
+.center-icon.bg-purple,
+.icon-type-dar {
+    background: rgba(176, 39, 39, 0.15) !important;
+    color: #c86868 !important;
+    border-color: rgba(176, 39, 39, 0.3) !important;
+}
+
+/* مركز إعداد المعلمات - برتقالي شفاف */
+.center-icon.bg-warning,
+.icon-type-markaz {
+    background: rgba(255, 152, 0, 0.15) !important;
+    color: #ffb74d !important;
+    border-color: rgba(255, 152, 0, 0.3) !important;
+}
+
+/* برامج الرياحين - أخضر شفاف */
+.center-icon.bg-success,
+.icon-type-program {
+    background: rgba(76, 175, 80, 0.15) !important;
+    color: #81c784 !important;
+    border-color: rgba(76, 175, 80, 0.3) !important;
+}
+
+/* ==========================================
+   👥 الجنس - شفاف
+   ========================================== */
+
+/* بنات - وردي شفاف */
+.student-avatar.female,
+.icon-gender-female {
+    background: rgba(245, 9, 87, 0.15) !important;
+    color: #f48fb1 !important;
+    border-color: rgba(240, 10, 87, 0.3) !important;
+}
+
+/* بنين - أزرق شفاف */
+.student-avatar.male,
+.icon-gender-male {
+    background: rgba(33, 150, 243, 0.15) !important;
+    color: #64b5f6 !important;
+    border-color: rgba(33, 150, 243, 0.3) !important;
+}
+
+/* ==========================================
+   ⏰ الفترات - شفافة
+   ========================================== */
+
+/* الفترة الصباحية - برتقالي شفاف */
+.icon-period-morning,
+.bg-orange {
+    background: rgba(255, 152, 0, 0.15) !important;
+    color: #ffb74d !important;
+    border: 1px solid rgba(255, 152, 0, 0.3) !important;
+}
+
+/* الفترة المسائية - أزرق شفاف */
+.icon-period-evening {
+    background: rgba(255, 255, 255, 0.15) !important;
+    color: #42a5f5 !important;
+    border: 1px solid rgb(255, 255, 255) !important;
+}
+
+/* ==========================================
+   📊 الإحصائيات - شفافة
+   ========================================== */
+
+.stats-icon.bg-info,
+.icon-stats-info {
+    background: rgba(23, 162, 184, 0.15) !important;
+    color: #5dd3e8 !important;
+    border-color: rgba(23, 162, 184, 0.3) !important;
+}
+
+.stats-icon.bg-success,
+.icon-stats-success {
+    background: rgba(40, 167, 69, 0.15) !important;
+    color: #5dd879 !important;
+    border-color: rgba(40, 167, 69, 0.3) !important;
+}
+
+.stats-icon.bg-primary,
+.icon-stats-primary {
+    background: rgba(127, 176, 105, 0.15) !important;
+    color: #90c695 !important;
+    border-color: rgba(127, 176, 105, 0.3) !important;
+}
+
+.stats-icon.bg-warning,
+.icon-stats-warning {
+    background: rgba(255, 193, 7, 0.15) !important;
+    color: #ffd454 !important;
+    border-color: rgba(255, 193, 7, 0.3) !important;
+}
+
+.stats-icon.bg-danger,
+.icon-stats-danger {
+    background: rgba(220, 53, 69, 0.15) !important;
+    color: #ff6b7a !important;
+    border-color: rgba(220, 53, 69, 0.3) !important;
+}
+
+/* ==========================================
+   🏷️ البادجات (Badges) - شفافة
+   ========================================== */
+
+/* بادج النوع */
+.badge-type {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 12px;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    backdrop-filter: blur(10px);
+}
+
+/* دور التحفيظ */
+.badge-type-dar {
+    background: rgba(176, 39, 39, 0.15) !important;
+    color: #c86868 !important;
+    border: 1px solid rgb(176, 39, 39) !important;
+}
+
+/* مركز المعلمات */
+.badge-type-markaz {
+    background: rgba(255, 152, 0, 0.15) !important;
+    color: #ffb74d !important;
+    border: 1px solid rgba(255, 152, 0, 0.3) !important;
+}
+
+/* برامج الرياحين */
+.badge-type-program {
+    background: rgba(76, 175, 80, 0.15) !important;
+    color: #81c784 !important;
+    border: 1px solid rgba(76, 175, 80, 0.3) !important;
+}
+
+/* بادج الجنس */
+.badge-gender-female {
+    background: rgba(233, 30, 99, 0.15) !important;
+    color: #f48fb1 !important;
+    border: 1px solid rgba(233, 30, 99, 0.3) !important;
+}
+
+.badge-gender-male {
+    background: rgba(33, 150, 243, 0.15) !important;
+    color: #64b5f6 !important;
+    border: 1px solid rgba(33, 150, 243, 0.3) !important;
+}
+
+/* بادج الفترة */
+.badge-period-morning {
+    background: rgba(255, 152, 0, 0.15) !important;
+    color: #ffb74d !important;
+    border: 1px solid rgba(255, 152, 0, 0.3) !important;
+}
+
+.badge-period-evening {
+    background: rgba(25, 118, 210, 0.15) !important;
+    color: #42a5f5 !important;
+    border: 1px solid rgba(25, 118, 210, 0.3) !important;
+}
+
+/* ==========================================
+   🔘 الأزرار بالأيقونات - شفافة
+   ========================================== */
+
+/* أزرار النوع */
+.btn-purple {
+    background: rgba(156, 39, 176, 0.15) !important;
+    color: #ba68c8 !important;
+    border: 1px solid rgba(156, 39, 176, 0.3) !important;
+    backdrop-filter: blur(10px);
+}
+
+.btn-purple:hover {
+    background: rgba(156, 39, 176, 0.25) !important;
+    border-color: rgba(156, 39, 176, 0.5) !important;
+    color: #ce93d8 !important;
+}
+
+.btn-outline-purple {
+    border: 1px solid rgba(156, 39, 176, 0.3) !important;
+    color: #ba68c8 !important;
+    background: transparent !important;
+}
+
+.btn-outline-purple:hover {
+    background: rgba(156, 39, 176, 0.15) !important;
+    border-color: rgba(156, 39, 176, 0.5) !important;
+    color: #ce93d8 !important;
+}
+
+/* أزرار الجنس */
+.btn-pink {
+    background: rgba(233, 30, 99, 0.15) !important;
+    color: #f48fb1 !important;
+    border: 1px solid rgba(233, 30, 99, 0.3) !important;
+    backdrop-filter: blur(10px);
+}
+
+.btn-pink:hover {
+    background: rgba(233, 30, 99, 0.25) !important;
+    border-color: rgba(233, 30, 99, 0.5) !important;
+    color: #f8bbd0 !important;
+}
+
+.btn-outline-pink {
+    border: 1px solid rgba(233, 30, 99, 0.3) !important;
+    color: #f48fb1 !important;
+    background: transparent !important;
+}
+
+.btn-outline-pink:hover {
+    background: rgba(233, 30, 99, 0.15) !important;
+    border-color: rgba(233, 30, 99, 0.5) !important;
+    color: #f8bbd0 !important;
+}
+
+/* ==========================================
+   ✨ تأثيرات الحركة
+   ========================================== */
+
+.icon-circle,
+.center-icon,
+.student-avatar,
+.badge-type,
+.btn-purple,
+.btn-pink {
+    transition: all 0.3s ease;
+}
+
+.icon-circle:hover,
+.center-icon:hover,
+.student-avatar:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* ==========================================
+   📱 التجاوب
+   ========================================== */
+
+@media (max-width: 768px) {
+    .icon-circle {
+        width: 45px;
+        height: 45px;
+        font-size: 1.1rem;
+    }
+    
+    .center-icon {
+        width: 40px;
+        height: 40px;
+        font-size: 1.1rem;
+    }
+    
+    .student-avatar {
+        width: 35px;
+        height: 35px;
+        font-size: 0.9rem;
+    }
+}
+
+/* ==========================================
+   🎯 الفئات المساعدة
+   ========================================== */
+
+/* أيقونات الحالات */
+.icon-status-active {
+    background: rgba(40, 167, 69, 0.15) !important;
+    color: #5dd879 !important;
+    border-color: rgba(40, 167, 69, 0.3) !important;
+}
+
+.icon-status-inactive {
+    background: rgba(220, 53, 69, 0.15) !important;
+    color: #ff6b7a !important;
+    border-color: rgba(220, 53, 69, 0.3) !important;
+}
+
+.icon-status-pending {
+    background: rgba(255, 193, 7, 0.15) !important;
+    color: #ffd454 !important;
+    border-color: rgba(255, 193, 7, 0.3) !important;
+}
+
+/* أيقونات كبيرة */
+.icon-lg {
+    width: 60px;
+    height: 60px;
+    font-size: 1.5rem;
+}
+
+/* أيقونات صغيرة */
+.icon-sm {
+    width: 35px;
+    height: 35px;
+    font-size: 0.9rem;
+}
+
+/* ==========================================
+   🎨 مجموعات الألوان الإضافية - شفافة
+   ========================================== */
+
+/* للباصات */
+.icon-bus {
+    background: rgba(255, 193, 7, 0.15) !important;
+    color: #ffd454 !important;
+    border-color: rgba(255, 193, 7, 0.3) !important;
+}
+
+/* للسائقين */
+.icon-driver {
+    background: rgba(23, 162, 184, 0.15) !important;
+    color: #5dd3e8 !important;
+    border-color: rgba(23, 162, 184, 0.3) !important;
+}
+
+/* للدفعات */
+.icon-payment {
+    background: rgba(40, 167, 69, 0.15) !important;
+    color: #5dd879 !important;
+    border-color: rgba(40, 167, 69, 0.3) !important;
+}
+
+/* للتقارير */
+.icon-report {
+    background: rgba(111, 66, 193, 0.15) !important;
+    color: #9b7fd4 !important;
+    border-color: rgba(111, 66, 193, 0.3) !important;
+}
