@@ -57,6 +57,3 @@ php artisan serve
 ```
 
 
-## 📝 License
-
-This project was built as part of a co-op internship at the Quran Memorization Association in Al-Zulfi.
